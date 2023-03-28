@@ -1,0 +1,23 @@
+# --- essentials
+numpy~=1.18.5
+pytz~=2020.1
+# ipython==7.15.0
+scipy~=1.4.1
+psycopg2
+SQLAlchemy~=1.4.25
+psycopg2-binary~=2.9.1
+
+# scikit-learn==0.23.1
+# scikit-learn==0.22.1
+# joblib==0.15.1
+# joblib==0.14.1
+# dataclasses
+# PyZmq==19.0.1
+# PySimpleGUI==4.24.0
+# opencv-python==4.2.0.34
+# scikit-image==0.17.1
+# scikit-image==0.16.2
+# pandas==1.0.5
+# Pillow==7.1.2
+# matplotlib==3.2.2
+# tqdm==4.46.1

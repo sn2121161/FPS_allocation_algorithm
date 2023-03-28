@@ -1,0 +1,9 @@
+{
+    "azureFunctions.projectSubpath": "functions\\shared_functions\\telematics",
+    "azureFunctions.deploySubpath": "functions\\shared_functions\\telematics",
+    "azureFunctions.scmDoBuildDuringDeployment": true,
+    "azureFunctions.pythonVenv": ".venv",
+    "azureFunctions.projectLanguage": "Python",
+    "azureFunctions.projectRuntime": "~4",
+    "debug.internalConsoleOptions": "neverOpen"
+}

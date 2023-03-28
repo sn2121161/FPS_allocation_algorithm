@@ -1,0 +1,52 @@
+[submodule "tru_sp/fps-sp-fa/python_utils"]
+	path = tru_sp/fps-sp-fa/python_utils
+	url = https://github.com/Flexible-Power-Systems/python_utils.git
+[submodule "tru_sp/fps-sp-fa/pipeline_plan_functions"]
+	path = tru_sp/fps-sp-fa/pipeline_plan_functions
+	url = https://github.com/Flexible-Power-Systems/pipeline_plan_functions.git
+
+[submodule "functions/shared_functions/telematics/pipeline_plan_functions"]
+	path = functions/shared_functions/telematics/pipeline_plan_functions
+	url = https://github.com/Flexible-Power-Systems/pipeline_plan_functions.git
+[submodule "functions/shared_functions/allocation/python_utils"]
+	path = functions/shared_functions/allocation/python_utils
+	url = https://github.com/Flexible-Power-Systems/python_utils.git
+[submodule "functions/shared_functions/allocation/pipeline_plan_functions"]
+	path = functions/shared_functions/allocation/pipeline_plan_functions
+	url = https://github.com/Flexible-Power-Systems/pipeline_plan_functions.git
+[submodule "functions/shared_functions/scheduler/python_utils"]
+	path = functions/shared_functions/scheduler/python_utils
+	url = https://github.com/Flexible-Power-Systems/python_utils.git
+[submodule "functions/shared_functions/scheduler/pipeline_plan_functions"]
+	path = functions/shared_functions/scheduler/pipeline_plan_functions
+	url = https://github.com/Flexible-Power-Systems/pipeline_plan_functions.git
+[submodule "functions/shared_functions/telematics/python_utils"]
+	path = functions/shared_functions/telematics/python_utils
+	url = https://github.com/Flexible-Power-Systems/python_utils.git
+[submodule "functions/shared_functions/tru/python_utils"]
+	path = functions/shared_functions/tru/python_utils
+	url = https://github.com/Flexible-Power-Systems/python_utils.git
+[submodule "functions/shared_functions/tru/pipeline_plan_functions"]
+	path = functions/shared_functions/tru/pipeline_plan_functions
+	url = https://github.com/Flexible-Power-Systems/pipeline_plan_functions.git
+[submodule "functions/shared_functions/cvd_database/pipeline_plan_functions"]
+	path = functions/shared_functions/cvd_database/pipeline_plan_functions
+	url = https://github.com/Flexible-Power-Systems/pipeline_plan_functions.git
+[submodule "functions/tru_sp_functions/pipeline_plan_functions"]
+	path = functions/tru_sp_functions/pipeline_plan_functions
+	url = https://github.com/Flexible-Power-Systems/pipeline_plan_functions.git
+[submodule "functions/tru_sp_functions/python_utils"]
+	path = functions/tru_sp_functions/python_utils
+	url = https://github.com/Flexible-Power-Systems/python_utils.git
+[submodule "functions/shared_functions/max_load_overlay/TRU HGV and site peak load/pipeline_plan_functions"]
+	path = functions/shared_functions/max_load_overlay/TRU HGV and site peak load/pipeline_plan_functions
+	url = https://github.com/Flexible-Power-Systems/pipeline_plan_functions.git
+[submodule "functions/shared_functions/max_load_overlay/TRU alone peak load (site +TRU)/pipeline_plan_functions"]
+	path = functions/shared_functions/max_load_overlay/TRU alone peak load (site +TRU)/pipeline_plan_functions
+	url = https://github.com/Flexible-Power-Systems/pipeline_plan_functions.git
+[submodule "tru_sp/python_utils"]
+	path = tru_sp/python_utils
+	url = https://github.com/Flexible-Power-Systems/python_utils.git
+[submodule "tru_sp/pipeline_plan_functions"]
+	path = tru_sp/pipeline_plan_functions
+	url = https://github.com/Flexible-Power-Systems/pipeline_plan_functions.git
