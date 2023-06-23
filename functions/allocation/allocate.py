@@ -6,6 +6,7 @@ import alloc_functions.daily as daily
 import alloc_functions.allocation_scenario as scenario
 import alloc_functions.controller as controller
 from python_utils.utils.logger import logger
+from IPython import embed
 
 RUNS = [215]
 # ALLOCATIONS = [658, 639]
@@ -13,11 +14,14 @@ RUNS = [215]
 
 def main(runs):
     for r in runs:
+        # embed()
         allocations = controller.main(r)
+        # embed()
         # allocations = ALLOCATIONS
         for alloc in allocations:
             try:
                 scenario.main(alloc)
+                embed()
                 daily.main(alloc)
                 cleaner.main(alloc)
                 # mixed.main(alloc)

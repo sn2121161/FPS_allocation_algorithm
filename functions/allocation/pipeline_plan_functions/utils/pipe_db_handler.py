@@ -17,6 +17,14 @@ def database_connection(type='test'):
         db_name = os.getenv('pipe_db_name', "")
         db_host = os.getenv('pipe_db_host', "")
         db_port = os.getenv('pipe_db_port', "")
+
+        # local variables
+        # db_user = os.getenv('dev_user')
+        # db_pswd = os.getenv('dev_pwd')
+        # db_name = "Pipeline-DB-New"
+        # db_host = os.getenv('dev_host')
+        # db_port = 5432
+
     elif type == 'prod':
         db_user = os.getenv('pipe_prod_user', "")
         db_pswd = os.getenv('pipe_prod_pswd', "")
@@ -42,6 +50,9 @@ def create_alch_engine():
     db_name = os.getenv('pipe_db_name', "")
     db_host = os.getenv('pipe_db_host', "")
     db_port = os.getenv('pipe_db_port', "")
+
+
+
     db_conn_str = sqlalchemy.engine.URL.create(
         drivername='postgresql+psycopg2',
         username=db_user,
